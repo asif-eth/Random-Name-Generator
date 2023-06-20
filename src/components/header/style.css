@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    background-color: #051641;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .header-title{
+    font-family: Poppins;
+    color: #f8f8f9;
+    font-size: xx-large;
+  }
+
+  .header-subTitle{
+    font-family: Poppins;
+    color: #B0E4E8;
+    font-size: large;
+    margin-bottom: 4px;
+  }
